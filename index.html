@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calisthenics school</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header class="top-header">
         <nav>
             <p class="logo">Calisthenics School</p>
-            <ul class="top menu">
+            <ul class="top-menu">
                 <li><a href="#about">About</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#galary">Galary</a></li>
+                <li><a href="#galary">Gallery</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#contacts">Contacts</a></li>
 
@@ -24,16 +24,17 @@
         </nav>
         <div class="jumbotron">
             <h1>Calisthenics School</h1>
-            <button>Buy Books</button>
-            <img src="img/calisthenics.jpg" alt="calisthenics">
+            <button class="button"><a href="#shop">Shop now</a></button>
+
 
         </div>
     </header>
-    <main>
-        <h2 id="about">About</h2>
+    <main class="background">
+        <div class="about">
+        <h2  id="about">About</h2>
         <p>Calisthenics is a form of exercise consisting of a variety of movements which exercise large muscle groups (gross motor movements), such as running, standing, grasping, pushing, etc. This is our shop in which you can buy calisthenics books with
             training programs.</p>
-        <h2 id="programs">Progams</h2>
+        <h2>Progams</h2>
         <p>We have got 5 programs which you can buy in our shop:</p>
         <ul>
             <li>Front lever </li>
@@ -42,22 +43,75 @@
             <li>Handstand and Dragonflag</li>
             <li>Hefesto</li>
         </ul>
-        <h2 id="galary">Galary</h2>
+        </div>
+
+</div>
+        <div class="img">
+        <h2 id="galary">Gallery</h2>
         <img src="img/frontlever.jpg" alt="front lever">
         <img src="img/backlever.jpg" alt="backlevr">
         <img src="img/planche.jpg" alt="planche">
         <img src="img/handstand.jpg" alt="handstand">
         <img src="img/flag.jpg" alt="flag">
         <img src="img/dragonflag.jpg" alt="dragonflag">
+        </div>
         <h2 id="shop">Shop</h2>
-    </main>
-    <footer>
-        <h2 id="contacts">Contacts</h2>
+        <div class="product-list">
+            <article class="product-card">
+                <h3>Front lever</h3>
+                <img src="img/front.jpg" alt="front lever">
+                <p>This book is about Front lever. In this book you can find training programs of Front lever.</p>
+                <div class="button-container">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <h3>Hefesto</h3>
+                <img src="img/hefesto3.jpg" alt="hefesto">
+                <p>This book is about Hefesto. In this book you can find training programs of Hefesto.</p>
+                <div class="button-container">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <h3>Flag and Backlever</h3>
+                <img src="img/back.jpg" alt="backlevr">
+                <p>This book is about Flag and Backlever. In this book you can find training programs of Flag and Backlever.</p>
+                <div class="button-container">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <h3>Planche</h3>
+                <img src="img/planche1.jpg" alt="planche1">
+                <p>This book is about Planche . In this book you can find training programs of Planche.</p>
+                <div class="button-container">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <h3>Handstand and Dragonflag</h3>
+                <img src="img/hand2.jpg" alt="handstand">
+                <p>This book is about Handstand and Dragonflag. In this book you can find training programs of Handstand and Dragonflag.</p>
+                <div class="button-container">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy</button>
+                </div>
+            </article>
+        </div>
+            <h2 id="contacts">Contacts</h2>
         <ul>
             <li>Phone: +39(098)5739837</li>
             <li>Email: calisthenics-school@gmail.com</li>
             <li>Instagram: calisthenics_school</li>
         </ul>
+    </main>
+    <footer>
+        ©2019 Google
     </footer>
 
 
