@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Adamina|Notable&display=swap');
 
 :root {
-    --main-color: black;
-    --accent-color: rgb(214, 15, 15);
     font-family: 'Adamina', serif;
     scroll-behavior: smooth;
 }
@@ -28,6 +26,7 @@ body {
     justify-content: space-around;
     padding: 0;
     flex: 1;
+    height: 450px;
 }
 
 .top-header .top-menu li {
@@ -39,11 +38,12 @@ body {
     text-decoration: none;
     border: 1px solid white;
     padding: 2px;
-    color: var(--main-color);
+    color: black;
 }
 
 .top-header .top-menu li a:hover {
-    border: 1px solid var(--accent-color);
+    border: 1px solid ;
+    color: red;
 }
 
 @media (min-width: 600px) {
@@ -64,6 +64,10 @@ body {
     flex-direction: column;
 }
 
+.top-header .jumbotron .button {
+    text-decoration: none;
+}
+
 @media (min-width: 600px) {
 .top-header .jumbotron {
     min-height: 500px;
@@ -78,7 +82,7 @@ body {
 }
 
 .img img {
-    height: 150px;
+    height: 450px;
     width: 150px;
 }
 
@@ -94,7 +98,8 @@ main ul {
 }
 
 .product-list .product-card {
-    border: 1px solid var(--accent-color);
+    border: 1px solid;
+    color: grey;
     padding: 2px;
 }
 .product-list .product-card img {
@@ -160,9 +165,9 @@ main ul {
 .button a {
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--accent-color);
+    color: grey;
 }
 footer {
-    background-color: grey;
+    background-color: black;
     text-align: center;
 }
