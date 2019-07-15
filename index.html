@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/sketchy-bootstrap.min.css">
-    
+
 </head>
 
 <body>
@@ -72,7 +72,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    
+
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -158,6 +158,14 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
+  <form class="was-validated">
+  <div class="mb-3">
+    <label for="validationTextarea">Your comment</label>
+    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Comment" required></textarea>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  </form>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
